@@ -1,0 +1,28 @@
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.choice {
+    font-size: 10vh;
+    transition: all 0.3s;
+}
+
+.choice:hover {
+    transform: scale(1.2);
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+  }
+
+.winner {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20vh;
+}
+.opponent
